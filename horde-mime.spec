@@ -5,7 +5,7 @@
 
 Name:          horde-mime
 Version:       0.0.2
-Release:       %mkrel 2
+Release:       %mkrel 3
 Summary:       Horde Mime Library
 License:       LGPL
 Group:         Networking/Mail
@@ -13,9 +13,16 @@ Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
 PreReq:        %{_bindir}/pear
+Requires:      horde-auth
+Requires:      horde-util
+Requires:      horde-compress
+Requires:      horde-framework
+Requires:      horde-icalendar
+Requires:      horde-identity
+Requires:      horde-sessionobjects
+Requires:      horde-text-filter
 Requires:      php-gettext
 Requires:      php-imap
-BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
 BuildRoot:      %{_tmppath}/%{name}-%{version}
