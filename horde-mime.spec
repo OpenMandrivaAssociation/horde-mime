@@ -5,7 +5,7 @@
 
 Name:          horde-mime
 Version:       0.0.2
-Release:       %mkrel 4
+Release:       %mkrel 5
 Summary:       Horde Mime Library
 License:       LGPL
 Group:         Networking/Mail
@@ -26,7 +26,7 @@ Requires:      php-gettext
 Requires:      php-imap
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:      %{_tmppath}/%{name}-%{version}
+
 
 %description
 The Horde_MIME:: class provides methods for dealing with MIME standards.
