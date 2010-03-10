@@ -5,7 +5,7 @@
 
 Name:          horde-mime
 Version:       0.0.2
-Release:       %mkrel 56
+Release:       %mkrel 6
 Summary:       Horde Mime Library
 License:       LGPL
 Group:         Networking/Mail
