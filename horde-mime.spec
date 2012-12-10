@@ -112,3 +112,35 @@ fi
 %{peardir}/Horde/MIME/Viewer/zip.php
 %{peardir}/Horde/MIME/mime.magic.php
 %{peardir}/Horde/MIME/mime.mapping.php
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-60mdv2011.0
++ Revision: 564076
+- Increased release for rebuild
+
+* Wed Mar 17 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-59mdv2010.1
++ Revision: 523066
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased release version
+
+* Wed Mar 10 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-58mdv2010.1
++ Revision: 517274
+- corrected version to 57 since 56 has already been used
+- corrected release from 56 to 6
+- correct spelling Requires: php-pear-Text_Flowed
+
+* Mon Mar 08 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-5mdv2010.1
++ Revision: 515628
+- added Requires: php-pear-Text_Flow
+  bumped up release
+- added Requires: php-pear-Text_Flow
+
+* Mon Feb 22 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-4mdv2010.1
++ Revision: 509402
+- replaced PreReq with Requires(pre)
+- removed Buildrequires; horde-framework
+- removed requires temorarily to biuld
+- import horde-mime
+
+
